@@ -12,6 +12,7 @@ import br.com.thiengo.thiengowebblog.MainActivity
 import br.com.thiengo.thiengowebblog.extra.UrlUtil
 import kotlinx.android.synthetic.main.activity_main.*
 
+
 class CustomWebViewClient(val activity: MainActivity) : WebViewClient() {
 
     override fun onPageStarted(view: WebView?, url: String?, favicon: Bitmap?) {
