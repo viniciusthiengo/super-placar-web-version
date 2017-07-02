@@ -50,7 +50,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        if( wv_site.canGoBack() ){
+        if( wv_site.visibility == View.VISIBLE
+                && wv_site.canGoBack() ){
             wv_site.goBack()
         }
         else{
