@@ -17,8 +17,8 @@ class CustomWebViewClient(val activity: MainActivity) : WebViewClient() {
 
     override fun onPageStarted(view: WebView?, url: String?, favicon: Bitmap?) {
         super.onPageStarted(view, url, favicon)
-        UrlUtil.saveLastUrl( url )
         activity.fl_page_load.visibility = View.VISIBLE
+        UrlUtil.saveLastUrl( url )
     }
 
     @TargetApi(Build.VERSION_CODES.M)

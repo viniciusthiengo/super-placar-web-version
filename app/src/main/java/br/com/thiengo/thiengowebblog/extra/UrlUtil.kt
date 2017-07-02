@@ -9,13 +9,13 @@ class UrlUtil {
         @JvmField val URL_NO_INTERNET = "file:///android_asset/html/no-internet.html"
         @JvmField val SP = SPUtils.getInstance("PREF")
 
-        fun saveLastUrl( url: String? ){
+        fun saveLastUrl(url: String?){
             SP.put("url", url ?: URL)
         }
 
         fun getLastUrl() = SP.getString("url", URL)
 
-        fun clear() {
+        fun clear(){
             SP.clear()
         }
     }

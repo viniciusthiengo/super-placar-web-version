@@ -14,12 +14,10 @@
         <style type="text/css">
             body{
                 background: #140c23;
-                /*position: relative;*/
                 color: #fff;
                 text-align: center;
                 font-family: Arial, sans-serif;
             }
-
             div {
                 padding-top: 15%;
             }
@@ -60,13 +58,13 @@
             $('a').click(function( e ){
                 e.preventDefault();
 
-                if( $.trim( $(this).text() ) == 'Recarregar aplicativo'
+                if( $.trim($(this).text()) == 'Recarregar aplicativo'
                     && AndroidInstance ){
 
                     $(this).text('Recarregando...');
                     AndroidInstance.reloadPage();
                 }
-            });
+            })
         </script>
     </body>
 </html>
