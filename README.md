@@ -1,4 +1,4 @@
-# Relógio Mundial Animado (Kotlin Android)
+# SuperPlacar Web Version (Kotlin Android)
 
 Projeto Kotlin Android da segunda parte do artigo [Facilitando o Desenvolvimento de Apps Android Com a Biblioteca AndroidUtilCode](https://www.thiengo.com.br/facilitando-o-desenvolvimento-de-apps-android-com-a-biblioteca-androidutilcode#title-04) do Blog [Thiengo.com.br](https://www.thiengo.com.br). Artigo que discute em detalhes a AndroidUtilCode API, uma API que encapsula a codificação comum e pesada de algumas tarefas comuns no desenvolvimento de aplicativos Android e assim nos permite o uso dessas mesmas tarefas com poucas linhas de código.
 
