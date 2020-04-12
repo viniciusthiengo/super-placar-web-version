@@ -6,7 +6,7 @@ Artigo que discute em detalhes a AndroidUtilCode API, uma API que encapsula a co
 
 <img src="https://www.thiengo.com.br/img/post/normal/oujq61b820cgjnmlq9s51rkcc1350a6f78dcd58d71347d55702f42c49d.jpg" width="700" alt="Facilitando o Desenvolvimento de Apps Android Com a Biblioteca AndroidUtilCode">
 
-O conteúdo do artigo também está disponível em [vídeos](https://www.thiengo.com.br/facilitando-o-desenvolvimento-de-apps-android-com-a-biblioteca-androidutilcode#title-21).
+O conteúdo do artigo também está disponível em [vídeo](https://www.thiengo.com.br/facilitando-o-desenvolvimento-de-apps-android-com-a-biblioteca-androidutilcode#title-21).
 
 ### Primeira parte
 
